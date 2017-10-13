@@ -9,9 +9,10 @@ public class Item {
 	private String itemName;
 	private int sellIn;
 	private int quality;
-	
+	/*Quality can never be negative and should not exceed 50 */
 	public static final int MIN_QUALITY=0;
 	public static final int MAX_QUALITY=50;
+	
 	public Item(String itemName){
 		this.itemName=itemName;
 	}
@@ -39,7 +40,8 @@ public class Item {
 	@Override
 	public String toString(){ 
 		if(this.getItemName().equals("NO SUCH ITEM"))
-			return this.getItemName();
+			return this.getItemName(); // Invalid items doesnt get printed with their sellin and quality values
+		
 		return this.getItemName()+" "+this.getSellIn()+" "+this.getQuality();
 		
 	}
