@@ -3,15 +3,10 @@
 Add instructions for project developers here.
 
 ## Problem Statement:
-	Hi and welcome to team Gilded Rose. We are a small inn with a prime location in a
-prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the
-finest goods. Unfortunately, our goods are constantly degrading in quality as they approach
-their sell by date. We currently update our inventory manually.
-Your task is to write a program to automate the inventory management based on the
-following rules:
+ Hi and welcome to team Gilded Rose. We are a small inn with a prime location in a prominent city ran by a friendly innkeeper named Allison. We also buy and sell only the finest goods. Unfortunately, our goods are constantly degrading in quality as they approach their sell by date. We currently update our inventory manually. Your task is to write a program to automate the inventory management based on the following rules:
 
 ### Rules:
--All items have a SellIn value which denotes the number of days we have to sell the
+- All items have a SellIn value which denotes the number of days we have to sell the
 item
 - All items have a Quality value which denotes how valuable the item is
 - At the end of each day our system lowers both values for every item
