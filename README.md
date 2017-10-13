@@ -54,10 +54,11 @@ Conjured -2 0
 
 ### Running this project
 
-- Checkout this project   
-- Import in Eclipse  
-- Run the Main.java under com.gildedrose.app.service package with the input file path as argument  
-e-g java Main D:/input.txt  
+- Clone or Download Zip from   https://github.com/subala-murthy/GildedRose/edit/master
+- Import the project in Eclipse
+- Right click on Main.java under src/com.gildedrose.app.service package and setup 'Run Configuration' with the input file path as Program argument e-g D:/input.txt, Run the program
+- To run the testsuit, Run the AllTest.java file under test/com.gildedrose.app as JUnit Test Suite
+
   
 
 
