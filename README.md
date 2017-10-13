@@ -54,12 +54,10 @@ Conjured -2 0
 
 ### Running this project
 
-- Checkout this project 
-- Import in Eclipse 
-- Run the Main.java under com.gildedrose.app.service package with the input file path as argument 
- e-g java Main D:/input.txt
- 
- 
-- 
+- Checkout this project   
+- Import in Eclipse  
+- Run the Main.java under com.gildedrose.app.service package with the input file path as argument  
+e-g java Main D:/input.txt  
+  
 
 
